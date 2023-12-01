@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+        <include name="regressionTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Organization_DeviceManagement.AddDevice">
+        <methods>
+          <include name="addDevice"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeClss"/>
+          <include name="afterSuit"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Organization_DeviceManagement.AddDevice -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
