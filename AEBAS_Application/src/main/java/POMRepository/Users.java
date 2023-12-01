@@ -33,7 +33,7 @@ public class Users {
 	public void clickDeviceManagement() {
 		addDevice.click();
 	}
-	//my commit
+
 
 
 
