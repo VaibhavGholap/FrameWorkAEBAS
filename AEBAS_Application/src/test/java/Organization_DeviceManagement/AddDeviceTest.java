@@ -2,6 +2,7 @@ package Organization_DeviceManagement;
 
 import org.testng.annotations.Test;
 import Generic_Utilities.BaseClass;
+import Generic_Utilities.WebDriver_Utility;
 import POMRepository.AddDeviceData;
 import POMRepository.LHSMenu;
 import POMRepository.Users;
@@ -15,6 +16,9 @@ public class AddDeviceTest extends BaseClass {
 		Users deviceManagement = new Users(driver);
 		AddDeviceData device = new AddDeviceData(driver);
 		LHSMenu menu = new LHSMenu(driver);
+		WebDriver_Utility wlib = new WebDriver_Utility();
+		wlib.maximizeWindow(driver);		
+		wlib.implicitlyWait(driver);
 		Thread.sleep(2000);
 
 		// Navigate to the LHS

@@ -17,8 +17,10 @@ public class AddStudentTest extends BaseClass {
 		AddStudentData student = new AddStudentData(driver);
 		Excel_Utility elib = new Excel_Utility();
 		WebDriver_Utility wlib = new WebDriver_Utility();
+		wlib.maximizeWindow(driver);		
+		wlib.implicitlyWait(driver);
 
-
+		
 		Thread.sleep(1000);
 
 		// Move to LHS site

@@ -2,51 +2,51 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-18T14:44:12 IST" name="Default suite" finished-at="2023-12-18T14:44:32 IST" duration-ms="20164">
+  <suite started-at="2023-12-18T14:55:26 IST" name="Default suite" finished-at="2023-12-18T14:55:46 IST" duration-ms="20591">
     <groups>
-      <group name="regressionTest">
-        <method signature="AddDeviceTest.addDevice()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" name="addDevice" class="Organization_DeviceManagement.AddDeviceTest"/>
-      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="AddStudentTest.addStudent()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" name="addStudent" class="Organization_UserManagement.AddStudentTest"/>
+      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2023-12-18T14:44:12 IST" name="Default test" finished-at="2023-12-18T14:44:32 IST" duration-ms="20164">
-      <class name="Organization_DeviceManagement.AddDeviceTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:12 IST" name="beforeSuite" finished-at="2023-12-18T14:44:12 IST" duration-ms="10" status="PASS">
+    <test started-at="2023-12-18T14:55:26 IST" name="Default test" finished-at="2023-12-18T14:55:46 IST" duration-ms="20591">
+      <class name="Organization_UserManagement.AddStudentTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:26 IST" name="beforeSuite" finished-at="2023-12-18T14:55:26 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:12 IST" name="beforeTest" finished-at="2023-12-18T14:44:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:26 IST" name="beforeTest" finished-at="2023-12-18T14:55:26 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClss()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:12 IST" name="beforeClss" finished-at="2023-12-18T14:44:17 IST" duration-ms="4354" status="PASS">
+        <test-method is-config="true" signature="beforeClss()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:26 IST" name="beforeClss" finished-at="2023-12-18T14:55:28 IST" duration-ms="1837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClss -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:17 IST" name="beforeMethod" finished-at="2023-12-18T14:44:22 IST" duration-ms="4771" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:28 IST" name="beforeMethod" finished-at="2023-12-18T14:55:34 IST" duration-ms="6447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addDevice()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:22 IST" name="addDevice" finished-at="2023-12-18T14:44:32 IST" duration-ms="10217" status="PASS">
+        <test-method signature="addStudent()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:34 IST" name="addStudent" finished-at="2023-12-18T14:55:46 IST" duration-ms="11996" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addDevice -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:32 IST" name="afterMethod" finished-at="2023-12-18T14:44:32 IST" duration-ms="670" status="PASS">
+        </test-method> <!-- addStudent -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:46 IST" name="afterMethod" finished-at="2023-12-18T14:55:46 IST" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:32 IST" name="afterClass" finished-at="2023-12-18T14:44:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:46 IST" name="afterClass" finished-at="2023-12-18T14:55:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:32 IST" name="afterTest" finished-at="2023-12-18T14:44:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:46 IST" name="afterTest" finished-at="2023-12-18T14:55:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuit()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:32 IST" name="afterSuit" finished-at="2023-12-18T14:44:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:Organization_UserManagement.AddStudentTest@4470fbd6]" started-at="2023-12-18T14:55:46 IST" name="afterSuit" finished-at="2023-12-18T14:55:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuit -->
-      </class> <!-- Organization_DeviceManagement.AddDeviceTest -->
+      </class> <!-- Organization_UserManagement.AddStudentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
