@@ -33,18 +33,32 @@ public class AddDeviceTest extends BaseClass {
 		Thread.sleep(1000);
 
 		device.selectdrpDeviceType();
+		Thread.sleep(2000);
+
 
 		device.addDeviceName();
+		Thread.sleep(2000);
+
 
 		device.addSerialNo();
+		Thread.sleep(2000);
+
 
 		device.makeBy();
+		Thread.sleep(2000);
+
 
 		device.selectdrpDeviceStatus();
+		Thread.sleep(2000);
+
 
 		device.warrantyInYears();
+		Thread.sleep(2000);
+
 
 		device.registerDeviceExpiry();
+		Thread.sleep(2000);
+
 
 		device.warrantyExpiry();
 		Thread.sleep(2000);

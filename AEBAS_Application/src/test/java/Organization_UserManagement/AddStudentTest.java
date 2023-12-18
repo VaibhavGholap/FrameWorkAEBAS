@@ -40,18 +40,28 @@ public class AddStudentTest extends BaseClass {
 
 		Thread.sleep(1000);
 		student.SelectdrpPrifix();
+		Thread.sleep(2000);
+
 		student.SelectStudentfirstName();
+		Thread.sleep(2000);
+
 		student.SelectStudentMiddleName();
+		Thread.sleep(2000);
+
 		student.selectLastName();
+		Thread.sleep(2000);
 
 		String contactNo = elib.getExcelDataFormatter("Add_Student", 3, 0) + ranNum;
 		System.out.println("ContactNo" + contactNo);
 		driver.findElement(By.id("contact_no")).sendKeys(contactNo);
 
-		
+		Thread.sleep(2000);
+
 		student.SelectEmail();
 
 		// Select Dropdown Gender
+		Thread.sleep(2000);
+
 
 		student.SelectdrpGender();
 
@@ -59,26 +69,33 @@ public class AddStudentTest extends BaseClass {
 		driver.findElement(By.id("aadhar")).sendKeys(adharNo);
 
 		// Select dropdown StudentCourse
+		Thread.sleep(2000);
 
 		student.SelectDrpCourse();
+		Thread.sleep(2000);
 
 		// Select Student Course Year
 		student.SelectdrpCourseYear();
+		Thread.sleep(2000);
 
 		// Select Religion
 		student.SelectdrpReligion();
+		Thread.sleep(2000);
 
 		// Select Category
 		student.SelectdrpCategory();
-		
+		Thread.sleep(2000);
+
 		student.SelectJoiningDate();
-		
+		Thread.sleep(2000);
+
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,1000)");
 
 //		String permantPinCode = elib.getExcelData("Add_Student", 6, 0);
 //		driver.findElement(By.id("permanentpincode")).sendKeys(permantPinCode);
-		
+		Thread.sleep(2000);
+
 		student.getSelectdrppermanentpincodedistrict();
 
         Thread.sleep(2000);

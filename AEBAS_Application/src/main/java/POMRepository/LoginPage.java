@@ -63,6 +63,8 @@ public class LoginPage {
 		Thread.sleep(1000);
 //		IConcentButton.click();
 //		administrativeRedioButton.click();
+		Thread.sleep(1000);
+
 		userTextField.sendKeys(username);
 		passwordTextField.sendKeys(password);
 		loginButton.click();
