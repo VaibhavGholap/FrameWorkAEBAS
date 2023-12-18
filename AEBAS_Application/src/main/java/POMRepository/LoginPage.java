@@ -62,7 +62,7 @@ public class LoginPage {
 	public void loginToAEBAS(String username, String password) throws InterruptedException {
 		Thread.sleep(1000);
 //		IConcentButton.click();
-		administrativeRedioButton.click();
+//		administrativeRedioButton.click();
 		userTextField.sendKeys(username);
 		passwordTextField.sendKeys(password);
 		loginButton.click();

@@ -1,157 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-18T14:17:48 IST" name="Suite" finished-at="2023-12-18T14:18:29 IST" duration-ms="40720">
+  <suite started-at="2023-12-18T14:44:12 IST" name="Default suite" finished-at="2023-12-18T14:44:32 IST" duration-ms="20164">
     <groups>
       <group name="regressionTest">
-        <method signature="AddDeviceTest.addDevice()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@730d2164]" name="addDevice" class="Organization_DeviceManagement.AddDeviceTest"/>
+        <method signature="AddDeviceTest.addDevice()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" name="addDevice" class="Organization_DeviceManagement.AddDeviceTest"/>
       </group> <!-- regressionTest -->
-      <group name="smokeTest">
-        <method signature="AddStudentTest.addStudent()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" name="addStudent" class="Organization_UserManagement.AddStudentTest"/>
-      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2023-12-18T14:17:48 IST" name="Test" finished-at="2023-12-18T14:18:29 IST" duration-ms="40720">
-      <class name="Organization_UserManagement.AddStudentTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:17:48 IST" name="beforeSuite" finished-at="2023-12-18T14:17:48 IST" duration-ms="8" status="PASS">
+    <test started-at="2023-12-18T14:44:12 IST" name="Default test" finished-at="2023-12-18T14:44:32 IST" duration-ms="20164">
+      <class name="Organization_DeviceManagement.AddDeviceTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:12 IST" name="beforeSuite" finished-at="2023-12-18T14:44:12 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:17:48 IST" name="beforeTest" finished-at="2023-12-18T14:17:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:12 IST" name="beforeTest" finished-at="2023-12-18T14:44:12 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClss()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:17:48 IST" name="beforeClss" finished-at="2023-12-18T14:17:50 IST" duration-ms="1863" status="PASS">
+        <test-method is-config="true" signature="beforeClss()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:12 IST" name="beforeClss" finished-at="2023-12-18T14:44:17 IST" duration-ms="4354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClss -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:17:50 IST" name="beforeMethod" finished-at="2023-12-18T14:17:56 IST" duration-ms="6701" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:17 IST" name="beforeMethod" finished-at="2023-12-18T14:44:22 IST" duration-ms="4771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addStudent()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:17:56 IST" name="addStudent" finished-at="2023-12-18T14:18:06 IST" duration-ms="9716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addStudent -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:18:06 IST" name="afterMethod" finished-at="2023-12-18T14:18:07 IST" duration-ms="1063" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <span fxshow.gt-sm="" class="mat-tooltip-trigger username mr-12 text-capitalize text-blue text-role ng-star-inserted" aria-describedby="cdk-describedby-message-1" cdk-describedby-host="">...</span> is not clickable at point (1227, 32). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [811cffb7a35a1fa2d912580a64bad240, clickElement {id=A8B5D0495A1360FCAFA16E0256F6FDB1_element_38}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55859/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (811cffb7a35a1fa2d912580a64bad240)] -> xpath: //span[text()=' demo org ']]
-Session ID: 811cffb7a35a1fa2d912580a64bad240]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span fxshow.gt-sm="" class="mat-tooltip-trigger username mr-12 text-capitalize text-blue text-role ng-star-inserted" aria-describedby="cdk-describedby-message-1" cdk-describedby-host="">...</span> is not clickable at point (1227, 32). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
-  (Session info: chrome=120.0.6099.109)
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [811cffb7a35a1fa2d912580a64bad240, clickElement {id=A8B5D0495A1360FCAFA16E0256F6FDB1_element_38}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55859}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55859/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (811cffb7a35a1fa2d912580a64bad240)] -> xpath: //span[text()=' demo org ']]
-Session ID: 811cffb7a35a1fa2d912580a64bad240
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at POMRepository.HomePage.clickONOrganization(HomePage.java:29)
-at Generic_Utilities.BaseClass.afterMethod(BaseClass.java:85)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:18:07 IST" name="afterClass" finished-at="2023-12-18T14:18:07 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:18:29 IST" name="afterTest" finished-at="2023-12-18T14:18:29 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuit()[pri:0, instance:Organization_UserManagement.AddStudentTest@7098b907]" started-at="2023-12-18T14:18:29 IST" name="afterSuit" finished-at="2023-12-18T14:18:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuit -->
-      </class> <!-- Organization_UserManagement.AddStudentTest -->
-      <class name="Organization_DeviceManagement.AddDeviceTest">
-        <test-method is-config="true" signature="beforeClss()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@730d2164]" started-at="2023-12-18T14:18:07 IST" name="beforeClss" finished-at="2023-12-18T14:18:08 IST" duration-ms="1074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClss -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@730d2164]" started-at="2023-12-18T14:18:08 IST" name="beforeMethod" finished-at="2023-12-18T14:18:19 IST" duration-ms="11018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="addDevice()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@730d2164]" started-at="2023-12-18T14:18:19 IST" name="addDevice" finished-at="2023-12-18T14:18:28 IST" duration-ms="8385" status="PASS">
+        <test-method signature="addDevice()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:22 IST" name="addDevice" finished-at="2023-12-18T14:44:32 IST" duration-ms="10217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addDevice -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@730d2164]" started-at="2023-12-18T14:18:28 IST" name="afterMethod" finished-at="2023-12-18T14:18:29 IST" duration-ms="857" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:32 IST" name="afterMethod" finished-at="2023-12-18T14:44:32 IST" duration-ms="670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@730d2164]" started-at="2023-12-18T14:18:29 IST" name="afterClass" finished-at="2023-12-18T14:18:29 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:32 IST" name="afterClass" finished-at="2023-12-18T14:44:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:32 IST" name="afterTest" finished-at="2023-12-18T14:44:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:Organization_DeviceManagement.AddDeviceTest@4470fbd6]" started-at="2023-12-18T14:44:32 IST" name="afterSuit" finished-at="2023-12-18T14:44:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
       </class> <!-- Organization_DeviceManagement.AddDeviceTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
