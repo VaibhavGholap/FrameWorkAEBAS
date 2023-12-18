@@ -79,7 +79,7 @@ public class AddStudentTest extends BaseClass {
 		
 		student.getSelectdrppermanentpincodedistrict();
 
-
+        Thread.sleep(2000);
 
 		student.clickAddStudentBtn();
 

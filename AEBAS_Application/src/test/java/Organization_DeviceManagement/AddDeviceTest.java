@@ -43,7 +43,7 @@ public class AddDeviceTest extends BaseClass {
 		device.registerDeviceExpiry();
 
 		device.warrantyExpiry();
-
+		Thread.sleep(2000);
 		device.addDeviceBTN();
 
 	}

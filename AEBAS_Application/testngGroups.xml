@@ -8,8 +8,8 @@
 			
 		</run>	</groups> <test thread-count="5" name="Test">
     <classes>
-		<class name="Organization_UserManagement.AddStudent"/>
-       <class name="Organization_DeviceManagement.AddDevice"/>	
+		<class name="Organization_UserManagement.AddStudentTest"/>
+       <class name="Organization_DeviceManagement.AddDeviceTest"/>	
       
     </classes>
   </test> <!-- Test -->
